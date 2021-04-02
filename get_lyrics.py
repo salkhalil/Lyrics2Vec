@@ -10,7 +10,7 @@ genius = lg.Genius('Fd4M0Y2_mUpjXFjmSzQrjtOnR_kTjhgc6KyubGPeSz-C0v4Or8tgnorMEzV_
                    skip_non_songs=True,
                    excluded_terms=["(Remix)", "(Live)"])
 
-artist_names = ['Eminem', 'Kendrick Lamar', 'Etta James', 'MF Doom', 'The Beatles', 'Smokey Robinson', 'ABBA', 'Al Green', 'Prince', 'Anderson .Paak', 'James Brown']
+artist_names = ['Eminem', 'Etta James', 'MF Doom', 'The Beatles', 'Smokey Robinson', 'ABBA', 'Al Green', 'Prince']
 
 artists = {}
 fails = []
