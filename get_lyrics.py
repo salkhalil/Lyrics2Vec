@@ -6,10 +6,12 @@ from bs4 import BeautifulSoup
 import os
 import re
 
+# Using genius API
 genius = lg.Genius('Fd4M0Y2_mUpjXFjmSzQrjtOnR_kTjhgc6KyubGPeSz-C0v4Or8tgnorMEzV_gkbv',
                    skip_non_songs=True,
                    excluded_terms=["(Remix)", "(Live)"])
 
+# Artists we want to get Lyrics for
 artist_names = ['Eminem', 'Etta James', 'MF Doom', 'The Beatles', 'Smokey Robinson', 'ABBA', 'Al Green', 'Prince']
 
 artists = {}
